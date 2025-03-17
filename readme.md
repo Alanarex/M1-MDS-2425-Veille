@@ -1,119 +1,68 @@
-# Veille technologique
+# Sommaire
 
-= Se tenir au courant
+- [Sommaire](#sommaire)
+  - [Actualités Récentes](#actualités-récentes)
+    - [Annulation des Frais d'Exécution](#annulation-des-frais-dexécution)
+    - [Changements de Leadership](#changements-de-leadership)
+    - [Licenciements et Restructuration](#licenciements-et-restructuration)
+  - [Événements à Venir](#événements-à-venir)
+    - [Unite 2025 à Barcelone](#unite-2025-à-barcelone)
+  - [Documentation et Ressources](#documentation-et-ressources)
+    - [Nouveautés de Unity 6](#nouveautés-de-unity-6)
+    - [Tutoriels sur les Événements et Délégués](#tutoriels-sur-les-événements-et-délégués)
 
-=> définir sur quel sujet on souhaite faire de la veille (exemple : Angular)
+---
 
-## Komenkonfait ?
+## Actualités Récentes
 
-- Se renseigner sur des sites
-- réseaux sociaux
-- conférences / hackathon
-- webinaires
-- newsletters
+### Annulation des Frais d'Exécution
 
-## Outils : lesquels utiliser, et comment ?
+En septembre 2024, Unity a annulé sa politique controversée de "runtime fee" qui facturait les développeurs en fonction du nombre d'installations de leurs jeux. Cette décision fait suite à une forte opposition de la communauté des développeurs. Unity est revenu à un modèle d'abonnement par utilisateur et a annoncé une augmentation des tarifs pour les abonnements Unity Pro et Unity Enterprise à partir du 1er janvier 2025. ([Reuters](https://www.reuters.com/technology/unity-software-scraps-runtime-fee-pricing-policy-introduces-price-hikes-2024-09-12))
 
-Agrégateur de flux RSS (Feedly, Netvibes -> à retester ?)
-Réseaux sociaux
-Sites internet
-Communautés
+### Changements de Leadership
 
-### Feedly => Agregateur de flux RSS
-- créez vos catégories
-- ajoutez des flux RSS dedans
+En octobre 2023, John Riccitiello a quitté son poste de PDG de Unity, suite aux controverses entourant la politique de tarification. James M. Whitehurst a été nommé PDG par intérim, suivi de Matthew Bromberg en mai 2024. ([The Verge](https://www.theverge.com/2024/10/17/24272699/unity-6-game-engine-release))
 
-EXEMPLE : 
-chercher les flux RSS sur :
-- le site officiel
-- Blogs orienté dev
-- Google
+### Licenciements et Restructuration
 
-### Twitter (X)
-- compte "pro" -> dissocié du perso
-- comment et qui suivre ???
+Unity a procédé à plusieurs vagues de licenciements. En janvier 2024, l'entreprise a réduit ses effectifs de 25 %, touchant environ 1 800 employés. En février 2025, une nouvelle série de licenciements a été signalée, affectant diverses équipes, y compris le département Behavior responsable des outils de script pour les PNJ. ([The Verge](https://www.theverge.com/news/610165/unity-layoffs-2025-runtime-fee))
 
-EXEMPLE : 
-1. Compte officiel d'Angular
-2. Le(s) créateur(s)
-3. Ceux qui travaillent pour Angular
-4. Formateur(s) de Angular
-5. Développeurs spécialisés Angular
-6. BAM (Boite à Merde)
-   -  Hashtags
-   -  Communautés
-   -  Evenements
-   -  Youtubeurs
-   -  Tendances
+---
 
-### Youtube
+## Événements à Venir
 
-Trouver des chaines en lien avec le sujet et s'y abeaunez. Attention, comme pour twitter, pas de compte perso, on sépare du pro
+### Unite 2025 à Barcelone
 
-EXEMPLE :
-1. Trouver un compte : https://www.youtube.com/@Angular
-2. S'abonner
-3. Aller dans les abonnements pour voir les dernières vidéos de tous les abonnements
+Unity organise la conférence Unite 2025 à Barcelone les 19 et 20 novembre. Cet événement offre aux développeurs l'opportunité de se connecter et de découvrir les derniers outils, conseils et services de Unity. ([Unity](https://unity.com/fr/news))
 
-### Podcasts
+---
 
-Si vous en trouvez en lien avec votre sujet !
+## Documentation et Ressources
 
-### Google Alertes
+### Nouveautés de Unity 6
 
-Crée des alertes, utile pour des sujets hyper spécifiques, mais attention au spam !
+Unity 6 introduit des améliorations significatives, notamment un rendu plus rapide, des options d'éclairage avancées, des workflows multijoueurs simplifiés et des capacités d'IA améliorées. Les développeurs peuvent désormais créer des expériences plus immersives et performantes. ([Unity](https://unity.com/fr/blog/unity-6-features-announcement))
 
-### Sites Webs 
+### Tutoriels sur les Événements et Délégués
 
-Et leur documentation !
+- **Article** : [Unity 3D — Coroutines, Events, and Delegates](https://swapnilmore03.medium.com/unity-3d-coroutines-events-and-delegates-db1569df3af6)
 
-Quelques exemples de sites
-- officiels
-- github
-- reddit
-- sites de tendances
+L'article explore les concepts fondamentaux des coroutines, événements et délégués dans Unity 3D. Ces éléments permettent aux développeurs de gérer des tâches asynchrones, de créer des systèmes réactifs et de structurer le code de manière modulaire.
 
-### Communautés
+**Coroutines** : Elles permettent d'exécuter des tâches sur plusieurs images sans bloquer le fil principal, facilitant ainsi la gestion des délais et des animations.
 
-- discord (& bots)
-- slack
+**Délégués** : Ce sont des pointeurs de fonction qui permettent de passer des méthodes en tant que paramètres, offrant ainsi une flexibilité dans l'appel des fonctions.
 
+**Événements** : Ils fonctionnent comme des délégués spécialisés, permettant à une classe de notifier d'autres classes lorsqu'une action spécifique se produit, favorisant ainsi une architecture de code découplée.
 
-# TP
+L'article fournit des exemples pratiques pour illustrer l'utilisation de ces concepts dans Unity 3D.
 
-A faire en individuel sur le sujet qui vous à été attribué (cf tableau ci-dessous)
+- **Video** : [How to use Events and Unity Events in Unity](https://www.youtube.com/watch?v=AGGmnVIhHvc)
 
-Faire un repo GIT avec un readme principal qui contiendra la justification du choix de votre techno.
-Vous devrez ensuite justifier de tous les outils que vous comptez utiliser.
-Pour chaque outil, mettez un tableau avec : 
-- Le lien vers la source
-- Justification de pourquoi vous l'avez choisie
+Cette vidéo explore l’importance des événements et Unity Events dans le développement de jeux avec Unity. L’auteur célèbre un jalon de 500 abonnés et encourage l’engagement communautaire via un serveur Discord.
 
-Vous devez mettre en place un MAXIMUM de sources. Les notes dépendront de la justification de chacune et du nombre de sources que vous avez listé.
-
-## Sujets
-
-| Nom        | Sujet         |
-|------------|---------------|
-| Adrien     | Laravel        |
-| Timéo      | Symfony        |
-| Martin     | Vue            |
-| Yael       | lua            |
-| Alexandre  | Django         |
-| Alaa       | Unity          |
-| Romuald    | Python         |
-| Haitham    | PHP            |
-| Thomas     | Unreal Engine  |
-| Robi       | React Native   |
-| Clément    | Express        |
-| Lino       | Flutter        |
-| Enzo       | Spring Boot    |
-| Mael       | Node           |
-| Amaury     | Nextjs         |
-| Mathis     | React          |
-| Evhan      | Javascript     |
-| Khadidja   | RoR            |
-| Nathan     | Perl           |
-| Yannick    | WPF            |
-| Victor     | Cobol          |
+Points clés abordés :
+- Optimisation des performances en évitant les boucles `Update()` et `FixedUpdate()` inutiles.
+- Comparaison entre Unity Events et les événements C# traditionnels.
+- Implémentation de nouvelles mécaniques de jeu basées sur un système événementiel.
 
